@@ -3,7 +3,7 @@ import re
 
 class EmailParser:
     # regex pattern that validate email
-    pattern = r'^[a-z0-9]+[\+]?[a-z0-9]+[@]\w+[.]\com$'
+    pattern = r'^[a-z0-9]+[\+]?[a-z0-9]+[@]\w+\.com$'
     keys = ['username', 'domain']
 
     def parse(self, email):
